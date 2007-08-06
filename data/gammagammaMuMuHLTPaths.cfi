@@ -2,5 +2,5 @@ module gammagammaMuMuHLTFilter= HLTHighLevel{
     InputTag TriggerResultsTag = TriggerResults
     bool byName = true
     bool andOr= true
-    vstring HLTPaths = {"pDMNoIso"}
+    vstring HLTPaths = {"HLT2MuonNonIso"}
 }
