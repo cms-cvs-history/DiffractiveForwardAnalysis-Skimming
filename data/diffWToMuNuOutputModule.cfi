@@ -1,0 +1,14 @@
+include "Configuration/EventContent/data/EventContent.cff"   
+
+    module diffWToMuNuOutputModule = PoolOutputModule
+    {
+        untracked string fileName = "diffWToMuNuFiltered.root"
+        using AODSIMEventContent
+	untracked PSet SelectEvents = {
+                vstring SelectEvents = {"diffWToMuNuHLTPath"}
+        }
+        untracked PSet datasets ={
+    		untracked string dataTier = "AOD-SIM"
+   		untracked string filterName = "diffWToMuNu"
+    }
+}

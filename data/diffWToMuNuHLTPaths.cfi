@@ -1,0 +1,6 @@
+module diffWToMuNuHLTFilter= HLTHighLevel{
+    InputTag TriggerResultsTag = TriggerResults
+    bool byName = true
+    bool andOr= true
+    vstring HLTPaths = {"HLT1MuonIso","HLT1MuonNonIso"}
+}
