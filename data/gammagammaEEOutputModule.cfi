@@ -8,7 +8,7 @@ include "Configuration/EventContent/data/EventContent.cff"
 		vstring SelectEvents = {"gammagammaEEHLTPath"}
 	}
         untracked PSet datasets ={
-    		untracked string dataTier = "AOD-SIM"
+    		untracked string dataTier = "USER"
    		untracked string filterName = "gammagammaEE"
     }
 }
