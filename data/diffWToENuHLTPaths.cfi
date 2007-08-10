@@ -1,6 +1,3 @@
-module diffWToENuHLTFilter= HLTHighLevel{
-    InputTag TriggerResultsTag = TriggerResults
-    bool byName = true
-    bool andOr= true
-    vstring HLTPaths = {"HLT1Electron"}
-}
+module diffWToENuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace diffWToENuHLTFilter.TriggerResultsTag = TriggerResults::HLT
+replace diffWToENuHLTFilter.HLTPaths = {"HLT1Electron"}
