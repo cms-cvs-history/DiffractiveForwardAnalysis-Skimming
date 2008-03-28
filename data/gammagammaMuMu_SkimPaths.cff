@@ -1,5 +1,0 @@
-include "DiffractiveForwardAnalysis/Skimming/data/gammagammaMuMuHLTPaths.cfi"
-
-path gammagammaMuMuHLTPath = {
-    gammagammaMuMuHLTFilter
-}
