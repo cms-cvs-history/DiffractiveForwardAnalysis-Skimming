@@ -1,3 +1,0 @@
-module gammagammaEEHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-replace gammagammaEEHLTFilter.TriggerResultsTag = TriggerResults::HLT
-replace gammagammaEEHLTFilter.HLTPaths = {"CandHLT2ElectronExclusive"}
