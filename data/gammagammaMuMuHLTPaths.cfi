@@ -1,3 +1,3 @@
 module gammagammaMuMuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
 replace gammagammaMuMuHLTFilter.TriggerResultsTag = TriggerResults::HLT
-replace gammagammaMuMuHLTFilter.HLTPaths = {"HLT2MuonNonIso"}
+replace gammagammaMuMuHLTFilter.HLTPaths = {"HLT_DoubleMu3"}
