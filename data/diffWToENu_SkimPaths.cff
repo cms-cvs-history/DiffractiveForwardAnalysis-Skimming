@@ -1,5 +1,0 @@
-include "DiffractiveForwardAnalysis/Skimming/data/diffWToENuHLTPaths.cfi"
-
-path diffWToENuHLTPath = {
-    diffWToENuHLTFilter
-}
